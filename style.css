@@ -1,17 +1,20 @@
 html {
   height: 100%;
-  width: 100%;
+  width: 50%;
   font-family: "Titillium Web", sans-serif;
+  background-image: "https://images.prismic.io/friday-marketing/dd64c92d-63e4-44e7-b65e-d3b70881df3c_Todo_list_apps-header.png?auto=compress,format";
 }
 
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(grey, rgb(100, 7, 100));
+  display: block;
 }
 
 button {
   font-size: 7px;
+  background-color: aqua;
 }
 
 #main-content {
@@ -22,6 +25,7 @@ button {
   flex-direction: column;
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.3);
+  
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
